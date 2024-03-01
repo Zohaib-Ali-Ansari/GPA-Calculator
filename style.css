@@ -1,0 +1,96 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #9290C3;
+}
+
+#main-container {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+#sub-container-1, #sub-container-1{
+    margin-left: 10px;
+}
+
+#main-heading {
+    color: rgb(40, 52, 219);
+    text-align: center;
+}
+
+#sub-container-1 label {
+    font-size: large;
+    color: #070F2B;
+}
+
+#no-of-courses-field {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 55%;
+    height: 25px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 80%;
+    height: 25px;
+}
+
+#no-of-courses-btn {
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+#calculate-btn {
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+    display: none;
+    margin-left: 10px;
+}
+
+#output-container {
+    width: 60%;
+    height: 200px;
+    background-color: #9290C3;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 150px;
+    display: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#gpa-text {
+    text-align: center;
+    color: rgb(247, 247, 247);
+}
+
+#gpa{
+    color: #fae100;
+    text-align: center;
+}
+
+#cancel-btn {
+    border-radius: 10px;
+    border: none;
+    width: 35%;
+    height: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #fae100;
+    margin-left: 32%;
+    cursor: pointer;
+}
+
