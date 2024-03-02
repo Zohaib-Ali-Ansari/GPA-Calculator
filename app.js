@@ -34,9 +34,10 @@ noOfCoursesBtn.addEventListener("click", function () {
 
 
 
-let gpa = 0;
-let totalHours = 0;
+
 calculateBtn.addEventListener("click", function () {
+    let gpa = 0;
+    let totalHours = 0;
     for (let i = 1; i <= noOfCourses; i++) {
         let gpOfCoursefield = document.getElementById("gp-of-course-" + i);
         let creditHoursOfCoursefield = document.getElementById("credit-hours-of-course-" + i);
